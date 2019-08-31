@@ -1,0 +1,5 @@
+train (t-ag813yhxltrezyyk9p3j7znu0) {
+  utterance ("[g:GetBasketInfo] 농구장 (찾아줘)[v:Where:Whereby]")
+  plan (Y2BhkMzOzAUivaTE4tTs1JKkxJwcPafEYiCTQQGLlHtqCUTWMy8tn0ECi4rwjNSiVAbesswyveLUnDS9YCDBwMzAyMAEJBmANAhCABNYlAEA)
+  last-modified (1567226625858)
+}

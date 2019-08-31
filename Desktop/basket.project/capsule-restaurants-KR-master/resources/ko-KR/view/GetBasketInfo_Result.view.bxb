@@ -1,0 +1,57 @@
+
+result-view {
+
+  match: Basket(this)
+
+  message {
+    if(size(this) == 1){
+       if(this.flag){
+        template (" 3km이내의 농구장이 하나 있네요! 확인해보세요!")
+       }else{
+        template ("해당 농구장를 확인해보세요!")
+      }    
+      
+    }else{     
+       if(this.flag){
+         template ("3km이내의 농구장들을 가져와 보았어요!")
+      }else{
+        template ("주변 농구장 정보를 가져와 보았어요!")
+      }    
+    }   
+  }
+
+  render {
+    if(size(this) == 1){
+      layout{
+        layout-macro (BasketMap){
+          param(info){
+            expression (this)
+          }
+        }
+         layout-macro (BasketCall){
+          param(info){
+            expression (this)
+          }
+        }
+        layout-macro (BasketInfo){
+          param(info){
+            expression (this)
+          }
+        }
+        
+      }
+   
+    }else{
+      list-of (this){
+        where-each (item){
+          layout-macro (BasketList){
+            param(basket){
+              expression (item)
+            }
+          }
+        }
+      }
+    }
+    
+  }
+}

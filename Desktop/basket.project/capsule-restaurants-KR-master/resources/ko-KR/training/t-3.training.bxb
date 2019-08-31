@@ -1,0 +1,5 @@
+train (t-3xwgzp2xvyhb1l0tsb4qo5xy2) {
+  utterance ("[g:Basket] (주변)[v:Near:Nearby] 농구장 (찾아줘)[v:Where:Whereby]")
+  plan (Y2BlkMzOzAUivaTE4tTs1JKkxJwcPafEYiCTQQGLlHtqCUTWMy8tn0Eciwq/1MQiBgksEuEZqUWpDLxlmWV6xak5aXrBQIKBhYGRgYmBGUgzAFkQCAPMQAySYwAA)
+  last-modified (1567226742571)
+}

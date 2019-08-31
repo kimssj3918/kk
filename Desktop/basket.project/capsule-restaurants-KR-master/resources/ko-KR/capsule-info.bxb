@@ -1,0 +1,25 @@
+capsule-info {
+  display-name (광주 농구장 찾기)
+  developer-name  (kimkim)
+  icon-asset (/img/baset.png)
+  description ("이 캡슐을 통해 광주 농구장 위치와 다양한 정보를 받아보실 수 있습니다.\n현재  검색 기능은 구 단위나 광주 내에서만 가능합니다. 추후 업데이트를 통해 전국 단위까지 제공할 예정입니다.\n캡슐에서 사용 가능한 기능\n\n1. 광주 주변 농구장  찾아줘 => 광주에 있는 농구장 리스트가 나옵니다.\n2. 주변 농구장 찾아줘 => 현재 위치 기준 3KM이내의 농구장 리스트가 나옵니다.\n\n기타 문의사항이나 원하시는 기능이 있으면 \"kimssj3918@naver.com\"으로 연락 해주세요!\n\n 광주 농구장 개발자 김승준 올림")
+  privacy-policy-url(https://docs.google.com/document/d/1UF2fmblsT-ZqfKu5DvayUHQvVQb3sM02Tx3bFJn5Sao/edit?usp=sharing)
+  search-keywords{
+    keyword(농구장)
+    keyword(농구 코트)
+    keyword(농구)
+    keyword(농구 코트 위치)
+    keyword(농구장 위치)
+    keyword(농구 위치)
+    
+  }
+
+  dispatch-name (농구장)//이름이 너무 길다는 의견이 있어서 수정
+  dispatch-aliases {
+    alias (광주 농구장 알림)
+    alias (광주농구장알림)
+    alias (광주농구장 알림)
+    alias (광주 농구장알림)
+
+  }
+}

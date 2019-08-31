@@ -1,0 +1,5 @@
+train (t-grsrobbdpllwh946yzmmuka4g) {
+  utterance ("[g:Basket] (주변)[v:Near:Nearby]에 농구할 곳 (찾아줘)[v:Where:Whereby]")
+  plan (Y2BlkMzOzAUivaTE4tTs1JKkxJwcPafEYiCTQQGLlHtqCUTWMy8tn0Eciwq/1MQiBgksEuEZqUWpDLxlmWV6xak5aXrBQIKBhYGRgYmBGUgzAFkQCAPMQAySYwAA)
+  last-modified (1567226898660)
+}

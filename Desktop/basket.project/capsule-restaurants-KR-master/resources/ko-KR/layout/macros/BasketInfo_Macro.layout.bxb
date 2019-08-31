@@ -1,0 +1,39 @@
+
+layout-macro-def (BasketInfo) {
+  params {
+    param (info) {
+      type (Basket)
+      min (Required) max (One)
+    }
+  }
+  content {
+    section{
+      title{
+        template ("주변 농구장 정보")
+      }
+      content{
+        
+        for-each(info.info){ 
+          as (subinfo){
+            
+            cell-area{
+               
+              slot2{
+                content{
+                  primary("[#{value(subinfo.title)}]")
+                  secondary("[#{value(subinfo.content)}]")
+                  
+                }
+                
+              }
+              
+              
+             
+               }
+            }           
+          }
+        }
+      }
+    }
+  }
+

@@ -1,0 +1,20 @@
+layout-macro-def (BasketList) {
+  params {
+    param (basket) {
+      type (Basket)
+      min (Required) max (Many)
+    }
+  }
+  content {
+    cell-card {
+      slot2 {
+          content {
+              order (PrimarySecondary)
+              primary ("#{value(basket.name)}")
+              secondary ("[#{value(basket.location)}]")
+            }
+        }
+       
+     }
+  }
+}

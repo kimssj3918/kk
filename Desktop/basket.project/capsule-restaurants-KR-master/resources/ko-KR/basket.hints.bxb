@@ -1,0 +1,12 @@
+  hints{
+    uncategorized{
+      utterance(주변 농구장 알려줘)
+      utterance(광주 농구장 어딨어)
+      utterance(광주 농구장)
+      utterance(주변 농구장 찾아줘)
+      utterance(주변 주변 농구장 알려줘)
+      utterance(농구장 어디 있어)
+      utterance(주변 농구장 어디 있어)
+      utterance(농구장 어딨어)
+    }
+  }
